@@ -1,0 +1,255 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\CompanyApi\\Company.Services\\Company.Services.csproj": {}
+  },
+  "projects": {
+    "C:\\CompanyApi\\Company.DataAccess\\Company.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CompanyApi\\Company.DataAccess\\Company.DataAccess.csproj",
+        "projectName": "Company.DataAccess",
+        "projectPath": "C:\\CompanyApi\\Company.DataAccess\\Company.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Creators\\.nuget\\packages\\",
+        "outputPath": "C:\\CompanyApi\\Company.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Creators\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\CompanyApi\\Company.Entities\\Company.Entities.csproj": {
+                "projectPath": "C:\\CompanyApi\\Company.Entities\\Company.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CompanyApi\\Company.Entities\\Company.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CompanyApi\\Company.Entities\\Company.Entities.csproj",
+        "projectName": "Company.Entities",
+        "projectPath": "C:\\CompanyApi\\Company.Entities\\Company.Entities.csproj",
+        "packagesPath": "C:\\Users\\Creators\\.nuget\\packages\\",
+        "outputPath": "C:\\CompanyApi\\Company.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Creators\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CompanyApi\\Company.Repository\\Company.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CompanyApi\\Company.Repository\\Company.Repository.csproj",
+        "projectName": "Company.Repository",
+        "projectPath": "C:\\CompanyApi\\Company.Repository\\Company.Repository.csproj",
+        "packagesPath": "C:\\Users\\Creators\\.nuget\\packages\\",
+        "outputPath": "C:\\CompanyApi\\Company.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Creators\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\CompanyApi\\Company.DataAccess\\Company.DataAccess.csproj": {
+                "projectPath": "C:\\CompanyApi\\Company.DataAccess\\Company.DataAccess.csproj"
+              },
+              "C:\\CompanyApi\\Company.Entities\\Company.Entities.csproj": {
+                "projectPath": "C:\\CompanyApi\\Company.Entities\\Company.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\CompanyApi\\Company.Services\\Company.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\CompanyApi\\Company.Services\\Company.Services.csproj",
+        "projectName": "Company.Services",
+        "projectPath": "C:\\CompanyApi\\Company.Services\\Company.Services.csproj",
+        "packagesPath": "C:\\Users\\Creators\\.nuget\\packages\\",
+        "outputPath": "C:\\CompanyApi\\Company.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Creators\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\CompanyApi\\Company.DataAccess\\Company.DataAccess.csproj": {
+                "projectPath": "C:\\CompanyApi\\Company.DataAccess\\Company.DataAccess.csproj"
+              },
+              "C:\\CompanyApi\\Company.Entities\\Company.Entities.csproj": {
+                "projectPath": "C:\\CompanyApi\\Company.Entities\\Company.Entities.csproj"
+              },
+              "C:\\CompanyApi\\Company.Repository\\Company.Repository.csproj": {
+                "projectPath": "C:\\CompanyApi\\Company.Repository\\Company.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
